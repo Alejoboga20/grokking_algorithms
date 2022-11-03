@@ -14,7 +14,7 @@ def find_smallest(array):
 assert find_smallest(test_array) == 10
 
 def selection_sort(array):
-  """Sort Array recursively"""
+  """Sort Array finding the smallest"""
   sorted_array = []
   for i in range(0, len(array)):
     smallest_index = find_smallest(array)
